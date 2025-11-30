@@ -101,10 +101,11 @@ section{
     line-height: 1.8;
 }
 .home-img img{
-    width: 32vw;
+    width: 30vw;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     transition: 0.4s ease-in-out;
+    height: 427px;
 }
 .home-img img:hover{
     box-shadow: 0 0 25px var(--main-color),
@@ -366,6 +367,7 @@ footer .copyright{
     .home-img img {
         width: 54vw;
         margin: 14px;
+        height: 205px;
     }
     .about{
         flex-direction: column-reverse;
